@@ -31,6 +31,11 @@
     .section-content h2 { margin: 0 0 16px; font-size: 32px; letter-spacing: -.03em; }
     .section-content p { max-width: 650px; margin: 0 0 18px; font-size: 18px; color: #4e4b46; }
     .section-content p:last-child { margin-bottom: 0; }
+    .project-gifs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; max-width: 720px; margin-top: 30px; }
+    .project-gifs img { display: block; width: 100%; border: 1px solid #cbc6bb; border-radius: 6px; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 24px; }
+    .project-links a { color: #1d1d1b; font-size: 16px; text-decoration: none; border-bottom: 1px solid #1d1d1b; }
+    .project-links a:hover { opacity: .6; }
     .contact { margin-top: 120px; padding-top: 40px; border-top: 1px solid #cbc6bb; }
     .contact h2 { margin: 0 0 28px; font-size: clamp(42px, 7vw, 72px); line-height: 1; letter-spacing: -.05em; }
     .contact a { display: inline-block; margin-right: 24px; margin-bottom: 12px; color: #1d1d1b; font-size: 18px; text-decoration: none; border-bottom: 1px solid #1d1d1b; }
@@ -43,6 +48,7 @@
       .section-content { padding: 36px 0 44px; }
       .section-content h2 { font-size: 27px; }
       .section-content p { font-size: 17px; }
+      .project-gifs { grid-template-columns: 1fr; }
       .contact { margin-top: 80px; }
     }
   </style>
@@ -76,6 +82,14 @@
         <h2>Something I've built</h2>
         <p>I built <span class="highlight">Jumpster</span>, a browser-based platform for creating, sharing, and playing custom 2D platformer levels. It includes a graphical level editor, platformer gameplay with enemies, coins, and checkpoints, user accounts, and a community feed for publishing and discovering levels.</p>
         <p>Building it gave me experience connecting frontend game development with a full-stack backend and database.</p>
+        <div class="project-links">
+          <a href="https://github.com/arielfeinstein/jumpster" target="_blank" rel="noopener noreferrer">View repository ↗</a>
+          <a href="https://jumpster.onrender.com" target="_blank" rel="noopener noreferrer">Try the live demo ↗</a>
+        </div>
+        <div class="project-gifs">
+          <img src="project_demo/play_level.gif" alt="Jumpster platformer gameplay" />
+          <img src="project_demo/edit_level.gif" alt="Jumpster level editor" />
+        </div>
       </section>
 
       <section class="section-content">
