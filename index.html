@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ariel Feinstein</title>
+  <link rel="icon" href="favicon/af-monogram.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="favicon/af-monogram.ico" sizes="any" />
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f2ea;
+      color: #1d1d1b;
+      line-height: 1.6;
+    }
+    .page { max-width: 960px; margin: 0 auto; padding: 40px 24px 100px; }
+    nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 100px; font-size: 14px; }
+    .logo { font-weight: 700; letter-spacing: -0.02em; }
+    nav a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; }
+    nav a:hover { border-bottom-color: #1d1d1b; }
+    .hero { max-width: 760px; margin-bottom: 120px; }
+    .eyebrow { margin-bottom: 18px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.12em; color: #77736b; }
+    h1 { margin: 0; font-size: clamp(56px, 10vw, 110px); line-height: .95; letter-spacing: -.06em; font-weight: 700; }
+    .intro { max-width: 620px; margin-top: 32px; font-size: 22px; color: #4e4b46; }
+    .highlight { color: #1d1d1b; font-weight: 600; }
+    main { border-top: 1px solid #cbc6bb; }
+    .section-content { padding: 48px 0 64px; border-bottom: 1px solid #cbc6bb; }
+    .section-content h2 { margin: 0 0 16px; font-size: 32px; letter-spacing: -.03em; }
+    .section-content p { max-width: 650px; margin: 0 0 18px; font-size: 18px; color: #4e4b46; }
+    .section-content p:last-child { margin-bottom: 0; }
+    .contact { margin-top: 120px; padding-top: 40px; border-top: 1px solid #cbc6bb; }
+    .contact h2 { margin: 0 0 28px; font-size: clamp(42px, 7vw, 72px); line-height: 1; letter-spacing: -.05em; }
+    .contact a { display: inline-block; margin-right: 24px; margin-bottom: 12px; color: #1d1d1b; font-size: 18px; text-decoration: none; border-bottom: 1px solid #1d1d1b; }
+    .contact a:hover { opacity: .6; }
+    @media (max-width: 640px) {
+      .page { padding: 28px 20px 70px; }
+      nav { margin-bottom: 70px; }
+      .hero { margin-bottom: 80px; }
+      .intro { font-size: 19px; }
+      .section-content { padding: 36px 0 44px; }
+      .section-content h2 { font-size: 27px; }
+      .section-content p { font-size: 17px; }
+      .contact { margin-top: 80px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav>
+      <div class="logo">Ariel Feinstein</div>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <header class="hero">
+      <h1>Hello,<br />I'm Ariel.</h1>
+      <p class="intro">I like learning new ideas and turning them into well-designed software—thinking through abstractions, tradeoffs, and edge cases until all the pieces fit together.</p>
+    </header>
+
+    <main>
+      <section class="section-content">
+        <h2>Who I am</h2>
+        <p>I've been interested in computers since I was a kid, and that curiosity has only grown over time. When something looks intimidating, my usual response is “challenge accepted.” I learn best by getting my hands dirty—building things, breaking them, and figuring out why they broke.</p>
+      </section>
+
+      <section class="section-content">
+        <h2>What I study</h2>
+        <p>I'm a fourth-year <span class="highlight">Computer Science</span> student, currently participating in the <span class="highlight">Excellenteam</span> program by Startup Nation Central.</p>
+        <p>My favorite courses have included <span class="highlight">Computability and Complexity</span>, <span class="highlight">Advanced Object-Oriented Programming</span>, <span class="highlight">Operating Systems</span>, <span class="highlight">Real-Time Systems</span>, and <span class="highlight">Computer Architecture</span>. They taught me how software and computers work at different levels—from design patterns and C++ to memory management, file systems, process scheduling, and the relationship between CPU, RAM, and cache.</p>
+        <p>More recently, through <span class="highlight">Excellenteam's Python Backend</span> course, I've been learning about microservice architecture and how to approach software development with production systems in mind.</p>
+      </section>
+
+      <section class="section-content">
+        <h2>Something I've built</h2>
+        <p>I built <span class="highlight">Jumpster</span>, a browser-based platform for creating, sharing, and playing custom 2D platformer levels. It includes a graphical level editor, platformer gameplay with enemies, coins, and checkpoints, user accounts, and a community feed for publishing and discovering levels.</p>
+        <p>Building it gave me experience connecting frontend game development with a full-stack backend and database.</p>
+      </section>
+
+      <section class="section-content">
+        <h2>What I want from this course</h2>
+        <p>I want a better sense of what working in the industry actually feels like: collaborating with a team, working under pressure, and handling tasks in a realistic work environment.</p>
+        <p>I also want to develop practical tools for interviews and the job search. By the end of the bootcamp, I hope to feel more confident, better prepared, and equipped to find and succeed in my first job.</p>
+      </section>
+    </main>
+
+    <section class="contact" id="contact">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Say hello.</h2>
+      <a href="mailto:arielfainshtein@icloud.com">arielfainshtein@icloud.com</a>
+      <a href="https://www.linkedin.com/in/ariel-feinstein-633868425" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    </section>
+  </div>
+</body>
+</html>
